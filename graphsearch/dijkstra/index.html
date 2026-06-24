@@ -9,9 +9,15 @@
     
 </head>
 <body>
+    <div>
     <h1>Select number of cells</h1>
-    <input type="range" class="glow" style="--val: 50" value="50" min="0" max="100" oninput="this.style='--val:'+this.value" />
     <input type="range" id="cells_number" min="2" max="30" value="8">
+    <span id="cells_value">8</span>
+    <br>
+    <button class="generate_maze">Generate maze</button>
+
+    </div>
+    
     <script src="sketch.js"></script>
 </body>
 </html>
